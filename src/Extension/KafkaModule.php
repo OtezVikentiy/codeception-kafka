@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Lamoda\Codeception\Extension;
+namespace OtezVikentiy\Codeception\Extension;
 
 use Codeception\Module;
 use Exception;
-use Lamoda\Codeception\Extension\MessageSerializer\ArrayMessageSerializer;
-use Lamoda\Codeception\Extension\MessageSerializer\MessageSerializerInterface;
+use OtezVikentiy\Codeception\Extension\MessageSerializer\ArrayMessageSerializer;
+use OtezVikentiy\Codeception\Extension\MessageSerializer\MessageSerializerInterface;
 use RdKafka\Conf;
 use RdKafka\Consumer;
 use RdKafka\Message;

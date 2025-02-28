@@ -8,7 +8,7 @@ This extension supports working with Apache Kafka.
 
 1. Install library
     ```bash
-    composer require lamoda/codeception-kafka
+    composer require otezvikentiy/codeception-kafka
     ```
    
 2. Create message serializer for your data transfer object
@@ -17,7 +17,7 @@ This extension supports working with Apache Kafka.
 namespace Tests\KafkaModule;
 
 use App\EventBus\DtoInterface;
-use Lamoda\Codeception\Extension\MessageSerializer\MessageSerializerInterface;
+use OtezVikentiy\Codeception\Extension\MessageSerializer\MessageSerializerInterface;
 
 class AcmeMessageSerializer implements MessageSerializerInterface
 {
@@ -38,13 +38,13 @@ class AcmeMessageSerializer implements MessageSerializerInterface
 }
 ```
 
-The default message serializer is Lamoda\Codeception\Extension\MessageSerializer\ArrayMessageSerializer.
+The default message serializer is OtezVikentiy\Codeception\Extension\MessageSerializer\ArrayMessageSerializer.
 
 2. Include to suite and configure
     ```yaml
     modules:
         enabled:
-            - \Lamoda\Codeception\Extension\KafkaModule
+            - \OtezVikentiy\Codeception\Extension\KafkaModule
                  serializer: 'Tests\KafkaModule\AcmeMessageSerializer'
                  config:
                      metadata.broker.list: '192.168.99.100:9092'

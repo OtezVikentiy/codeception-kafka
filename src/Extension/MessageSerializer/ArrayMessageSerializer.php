@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Lamoda\Codeception\Extension\MessageSerializer;
+namespace OtezVikentiy\Codeception\Extension\MessageSerializer;
 
 class ArrayMessageSerializer implements MessageSerializerInterface
 {
