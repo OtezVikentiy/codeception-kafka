@@ -3,3 +3,4 @@
 /.php_cs.cache
 /tests/_support/_generated/
 .idea
+.todolist

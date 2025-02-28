@@ -1,6 +1,8 @@
 {
   "name": "otezvikentiy/codeception-kafka",
   "description": "Kafka helper for codeception tests",
+  "version": "1.1",
+  "stability": "stable",
   "type": "library",
   "license": "MIT",
   "minimum-stability": "stable",
